@@ -1,4 +1,4 @@
-# This is a basic workflowname: RDP
+name: RDP
 on:
   workflow_dispatch:
 jobs:
@@ -97,4 +97,4 @@ jobs:
           while ($true) {
             Write-Host "[$(Get-Date)] RDP Active - Use Ctrl+C in workflow to terminate"
             Start-Sleep -Seconds 300
-          }.
+          }          
